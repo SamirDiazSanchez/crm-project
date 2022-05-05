@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
 					<link rel="stylesheet" href="./plugins/overlayScrollbars/css/OverlayScrollbars.min.css" />
 					<link rel="stylesheet" href="./plugins/daterangepicker/daterangepicker.css" />
 					<link rel="stylesheet" href="./plugins/summernote/summernote-bs4.min.css" />
+					<link rel="stylesheet" href="./css/login.css" />
 				</Head>
 				<body className="hold-transition sidebar-mini layout-fixed">
 					<Main />
