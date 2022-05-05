@@ -71,12 +71,6 @@ const Login = () => {
 
 	useEffect(() => {
 		checkSession();
-		if (process.env.NODE_ENV === 'production') {
-			console.log('production');
-		}
-		else{
-			console.log('dev');
-		}
 	}, [userData]);
 
 	return(
