@@ -1,4 +1,4 @@
-import { Layout } from "./layout/layout";
+import { Layout } from "../components/layout/layout";
 import { useContext, useEffect } from "react";
 import { useRouter } from "next/router";
 import { AuthContext } from "context/authContext";
@@ -11,7 +11,7 @@ const Dashboard = () => {
 	}, [])
 	
 	return(
-		<Layout>
+		<Layout title="Dashboard">
 			
 		</Layout>
 	);

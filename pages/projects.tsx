@@ -1,4 +1,4 @@
-import { Layout } from "./layout/layout";
+import { Layout } from "../components/layout/layout";
 import {
 	Button, Row, Col, Modal, ModalBody, ModalHeader, ModalFooter, Table, Input, Spinner
 } from 'reactstrap';
@@ -26,7 +26,7 @@ const Projects = () => {
 	}
 
 	return (
-		<Layout>
+		<Layout title="Projects">
 			<Row
 				className="py-2 justify-content-end"
 			>
